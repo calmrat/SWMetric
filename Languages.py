@@ -1,0 +1,135 @@
+Lang = {
+  "Python":{
+    "Comentary-lines":["'''(.*)|\"\"\"(.*)","(.*)'''|(.*)\"\"\""] ,
+    "Comentary-line":"#[^!](.*)|('''|\"\"\")(.*)('''|\"\"\")" ,
+    "Assignment": "(.*)[^=]=[^=](.*)",
+    "Operators":"(.*)[\.+\*\/<>=^&!-]+(.*)",
+    "Functions":"^\S*def[\s]*(.*)\(",
+    "Control-Flow":"[^#]+[^\"]+(if|elif|for|while)",
+    "Class-Declaration":"class[\s]*(.*)",
+    "Method":"[\s]+def (.*)\(",
+    "Package-declare":None,
+    "Imports":"import[\s]*(.*)"
+    },
+  "C/C++":{
+    "Comentary-lines":["/\*","\*/"] ,
+    "Comentary-line": "//",
+    "Assignment":  "(.*)[^=]=[^=](.*)",,
+    "Operators":"(.*)[\.+\*\/<>=^&!-]+(.*)",
+    "Functions":"[_a-zA-Z][_a-zA-Z0-9]*[\s]+\(.*\)[\s]*{?",
+    "Control-Flow":"[^/](if|elif|for|while)",
+    "Class-Declaration":"(class|struct)[\s]+",
+    "Method":"[_a-zA-Z][_a-zA-Z0-9]*[\s]+\(.*\)[\s]*{?",
+    "Package-declare":"namespace[\s]+[_a-zA-Z][_a-zA-Z0-9]*[\s]*{",
+    "Imports":"#include[\s]+(<.*>)?|(.*)"
+    },
+  "Lua":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "Asembler":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "Visual basic":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "Java":{
+"Comentary-lines":["/\*","\*/"] ,
+    "Comentary-line": "//",
+    "Assignment":  "(.*)[^=]=[^=](.*)",,
+    "Operators":"(.*)[\.+\*\/<>=^&!-]+(.*)",
+    "Functions":None,
+    "Control-Flow":"[^/](if|elif|for|while)",
+    "Class-Declaration":"class[\s]+",
+    "Method":"[_a-zA-Z][_a-zA-Z0-9]*[\s]+\(.*\)[\s]*{?",
+    "Package-declare":"package[\s]+[_a-zA-Z][_a-zA-Z0-9]*[\s]*;",
+    "Imports":"import[\s]+(.*);"
+    },
+  "C#":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "PHP":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "Ruby":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "Perl":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    },
+  "JavaScript":{
+    "Comentary-lines": ,
+    "Comentary-line": ,
+    "Assignment": ,
+    "Operators":,
+    "Functions":,
+    "Control-Flow":,
+    "Class-Declaration":,
+    "Method":,
+    "Package-declare":,
+    "Imports":
+    }
+  
+  }
